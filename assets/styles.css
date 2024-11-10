@@ -4,11 +4,49 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  color: #333;
+}
+
+header, footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  font-size: 0.9em;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
 }
 
 /* Hero Section */
 .hero {
-  background-image: url('https://www.example.com/hero-image.jpg'); /* Replace with your image URL */
+  background-image: url('https://www.example.com/your-image.jpg'); /* Replace with your image */
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -41,57 +79,79 @@ body {
   border-radius: 5px;
 }
 
-/* About Section */
-.about {
+/* Page Content Sections */
+section {
   padding: 60px 20px;
   text-align: center;
-  background-color: #ffffff;
 }
 
-.about h2 {
+section h2, section h3 {
   font-size: 2.5em;
+  margin-bottom: 20px;
 }
 
-.about p {
+section p {
   font-size: 1.2em;
+  line-height: 1.6;
 }
 
-/* Services Section */
-.services-preview {
-  display: flex;
-  justify-content: space-around;
-  padding: 60px 20px;
-  background-color: #f1f1f1;
-}
-
-.service {
-  text-align: center;
-  width: 30%;
-}
-
-.service h3 {
-  font-size: 2em;
-}
-
-.services-preview .btn {
-  display: block;
-  margin: 30px auto;
-  padding: 15px 25px;
+section .btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
   background-color: #28a745;
   color: white;
   text-decoration: none;
   border-radius: 5px;
 }
 
-/* Footer Section */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #343a40;
-  color: white;
+section img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
 }
 
-footer a {
+/* About, Services, and Contact Sections */
+.about-page, .services-page, .contact-page {
+  background-color: #ffffff;
+}
+
+.services-page {
+  background-color: #f1f1f1;
+}
+
+.service {
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+  max-width: 80%;
+  height: auto;
+}
+
+.contact-page input, .contact-page textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-page button {
+  padding: 10px 20px;
+  background-color: #28a745;
   color: white;
-  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-page button:hover {
+  background-color: #218838;
 }
