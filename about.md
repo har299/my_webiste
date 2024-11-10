@@ -16,5 +16,5 @@ title: About Us
   
   <h2>Our Mission</h2>
   <p>Our mission is to simplify and enhance cloud adoption, making it easier for businesses to transform and grow in the digital era.</p>
- <img src="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/02/24005406/Software-development-company-4.png" alt="Software Development Company">
+ <img src="{{ '/assets/images/pexels-goumbik-574071.jpg' | relative_url }}" alt="Pexels Goumbik Image">
 </section>
