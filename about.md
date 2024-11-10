@@ -16,4 +16,5 @@ title: About Us
   
   <h2>Our Mission</h2>
   <p>Our mission is to simplify and enhance cloud adoption, making it easier for businesses to transform and grow in the digital era.</p>
+  <img src="{{ '/assets/images/our-team.jpg' | relative_url }}" alt="Cloud Merge Team">
 </section>
