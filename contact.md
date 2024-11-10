@@ -5,9 +5,12 @@ title: Contact Us
 
 <section class="contact-page">
   <h1>Contact Cloud Merge</h1>
-  <p>Have questions or need a consultation? Reach out to us, and we’ll be happy to assist you.</p>
-  
-  <h2>Contact Information</h2>
-  <p>Email: <a href="mailto:info@cloudmerge.com">info@cloudmerge.com</a></p>
-  <p>Phone: (123) 456-7890</p>
+  <p>If you have any questions or would like to learn more about our services, please get in touch!</p>
+
+  <form action="https://formspree.io/YOUREMAIL@EXAMPLE.COM" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required><br>
+    <input type="email" name="email" placeholder="Your Email" required><br>
+    <textarea name="message" placeholder="Your Message" required></textarea><br>
+    <button type="submit">Send Message</button>
+  </form>
 </section>
